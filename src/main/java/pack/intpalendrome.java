@@ -45,9 +45,7 @@ public class intpalendrome {
 				System.out.println("it is not palendrome");
 				return;
 			}
-			
-		}
-		System.out.println("it is palendrome");
+
 		
 	}
 
