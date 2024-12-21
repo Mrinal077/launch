@@ -12,17 +12,18 @@ pipeline {
     }
 
     stages {
-        stage('Checkout Code') {
-            steps {
-                // This step pulls your code from GitHub repository
-                git 'https://github.com/Mrinal077/launch.git'
-            }
-        }
+        // stage('Checkout Code') {
+        //     steps {
+        //         // This step pulls your code from GitHub repository
+        //         git 'https://github.com/Mrinal077/launch.git'
+        //     }
+        // }
 
         stage('Install Dependencies') {
             steps {
                 script {
                     // Install dependencies using Maven (same as you would do in Eclipse)
+                    bat 'ls'
                     bat 'mvn clean install'
                 }
             }
