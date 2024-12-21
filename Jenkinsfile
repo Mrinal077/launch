@@ -2,8 +2,8 @@ pipeline {
     agent any  // This allows the pipeline to run on any available Jenkins agent (in this case, localhost)
 
     environment {
-        JAVA_HOME = 'C:\Program Files\Java\jdk-17'  // Ensure this path points to your Java installation
-        CHROME_DRIVER_PATH = 'D:\Eco_PVT_LTD\chromedriver_win32'  // Path to your chromedriver
+        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-17'  // Ensure this path points to your Java installation
+        CHROME_DRIVER_PATH = 'D:\\Eco_PVT_LTD\\chromedriver_win32'  // Path to your chromedriver
     }
 
     tools {
