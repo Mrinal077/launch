@@ -15,8 +15,8 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // This step pulls your code from GitHub repository
-                git 
-                git clone 'https://github.com/Mrinal077/launch.git'
+                sh 'git' 
+                sh 'git clone 'https://github.com/Mrinal077/launch.git\''
             }
         }
 
