@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     // Install dependencies using Maven (same as you would do in Eclipse)
-                    bat 'ls'
+                    bat 'dir'
                     bat 'mvn clean install'
                 }
             }
