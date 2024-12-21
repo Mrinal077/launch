@@ -8,7 +8,7 @@ pipeline {
 
     tools {
         jdk 'jdk'  // Make sure JDK 11 is configured in Jenkins Global Tool Configuration
-        maven 'Mvn'  // Make sure Maven is configured in Jenkins Global Tool Configuration
+        maven 'mvn'  // Make sure Maven is configured in Jenkins Global Tool Configuration
     }
 
     stages {
