@@ -16,7 +16,7 @@ pipeline {
             steps {
                 // This step pulls your code from GitHub repository
                 sh 'git' 
-                sh 'git clone 'https://github.com/Mrinal077/launch.git\''
+                sh 'git clone \'https://github.com/Mrinal077/launch.git\''
             }
         }
 
